@@ -16,13 +16,32 @@ h1 {
 	margin: 20px 0;
 }
 
+.btn-analyse {
+	background-color: #4f8cff;
+	color: white;
+}
+
+.btn-overleg {
+	background-color: #ffb020;
+	color: white;
+}
+
+.btn-adhoc {
+	background-color: #ff5c5c;
+	color: white;
+}
+
+.btn-documentatie {
+	background-color: #6bd66b;
+	color: white;
+}
+
 button {
-	font-size: 20px;
-	border-radius: 15%;
-	padding: 18px;
-	border-radius: 12px;
+	font-size: 22px;
+	padding: 20px;
+	border-radius: 14px;
 	border: none;
-	background-color: rgb(251, 252, 252);
+	font-weight: bold;
 }
 
 button:active {
