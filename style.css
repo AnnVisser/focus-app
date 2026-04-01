@@ -22,11 +22,11 @@ button {
 	padding: 18px;
 	border-radius: 12px;
 	border: none;
-	background-color: lightblue;
+	background-color: rgb(251, 252, 252);
 }
 
 button:active {
-	transform: scale(0, 98);
+	transform: scale(0.98);
 }
 
 ul {
