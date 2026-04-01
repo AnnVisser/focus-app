@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+	<script src="db.js"></script>
+	<script src="app.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Focus App</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<h1>Wat ben je aan het doen?</h1>
+
+		<div class="buttons">
+			<button onclick="startActivity('Werk')">Werk</button>
+			<button onclick="startActivity('Huishoudelijk')">Huishouden</button>
+			<button onclick="startActivity('Ontspanning')">Hobby</button>
+		</div>
+
+		<h2 id="context"></h2>
+		<h3 id="timer">00:00:00</h3>
+
+		<div class="buttons">
+			<button onclick="stopActivity()">STOP</button>
+			<button onclick="registerDistraction()">Kijk een vlinder!</button>
+		</div>
+
+		<p id="distractions">Afleidingen: 0</p>
+		<p id="switchesToday">Taakwissels vandaag: 0</p>
+		<h2>Activiteiten</h2>
+		<ul id="activityList"></ul>
+
+		<div id="active"></div>
+	</body>
+</html>

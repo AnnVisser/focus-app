@@ -1,0 +1,17 @@
+body {
+	font-family: Arial, sans-serif;
+	text-align: center;
+}
+
+button {
+	font-size: 20px;
+	border-radius: 15%;
+	padding: 20px;
+	margin: 20px;
+	width: auto;
+	background-color: lightblue;
+}
+
+ul {
+	list-style-type: none;
+}
